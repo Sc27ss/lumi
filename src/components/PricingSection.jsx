@@ -152,14 +152,14 @@ const PricingSection = () => {
                       <CheckIcon
                         className="w-4 h-4"
                         style={{
-                          color: plan.accentColor === '#ffffff' ? '#2aa198' : '#ffffff',
+                          color: plan.accentColor === '#ffffff' ? '#000000ff' : '#ffffff',
                         }}
                       />
                     </div>
                     <span
                       className="text-sm leading-relaxed"
                       style={{
-                        color: plan.backgroundColor === '#ffffff' ? '#374151' : 'rgba(255,255,255,0.9)',
+                        color: plan.backgroundColor === '#ffffff' ? '#000000ff' : 'rgba(255,255,255,0.9)',
                         fontFamily: 'Inter, sans-serif',
                         fontWeight: 400,
                       }}
@@ -173,7 +173,7 @@ const PricingSection = () => {
                 onClick={scrollToContact}
                 className="w-full py-4 rounded-xl font-semibold text-white transition-all duration-300 hover:shadow-lg flex items-center justify-center gap-2"
                 style={{
-                  backgroundColor: plan.backgroundColor === '#ffffff' ? '#000000ff' : '#ffffff',
+                  backgroundColor: plan.backgroundColor === '#ffffff' ? '#2aa198' : '#ffffff',
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 600,
                 }}
