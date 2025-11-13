@@ -171,9 +171,10 @@ const PricingSection = () => {
               </ul>
               <motion.button
                 onClick={scrollToContact}
-                className="w-full py-4 rounded-xl font-semibold text-white transition-all duration-300 hover:shadow-lg flex items-center justify-center gap-2"
+                className="w-full py-4 rounded-xl font-semibold transition-all duration-300 hover:shadow-lg flex items-center justify-center gap-2"
                 style={{
                   backgroundColor: plan.backgroundColor === '#ffffff' ? '#2aa198' : '#ffffff',
+                  color: plan.backgroundColor === '#ffffff' ? '#ffffff' : plan.backgroundColor,
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 600,
                 }}
