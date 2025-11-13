@@ -173,7 +173,7 @@ const PricingSection = () => {
                 onClick={scrollToContact}
                 className="w-full py-4 rounded-xl font-semibold text-white transition-all duration-300 hover:shadow-lg flex items-center justify-center gap-2"
                 style={{
-                  backgroundColor: plan.backgroundColor === '#ffffff' ? '#2aa198' : '#ffffff',
+                  backgroundColor: plan.backgroundColor === '#ffffff' ? '#000000ff' : '#ffffff',
                   fontFamily: 'Inter, sans-serif',
                   fontWeight: 600,
                 }}
