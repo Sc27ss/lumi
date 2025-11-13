@@ -32,7 +32,7 @@ const PricingSection = () => {
         'Acceso prioritario a horarios',
       ],
       backgroundColor: '#2aa198',
-      textColor: '#2aa198',
+      textColor: '#ffffffff',
       accentColor: '#ffffff',
       recommended: true,
     },
@@ -49,7 +49,7 @@ const PricingSection = () => {
         'Garantía de resultados',
       ],
       backgroundColor: '#1e2a78',
-      textColor: '#1e2a78',
+      textColor: '#ffffffff',
       accentColor: '#2aa198',
     },
   ];
